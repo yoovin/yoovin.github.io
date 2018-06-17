@@ -1,0 +1,22 @@
+nav {
+    background-color:#474747;
+}
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li.header {
+    float: left;
+    padding: 12px;
+}
+li.header a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li.header a:hover {
+    color: grey;
+}
