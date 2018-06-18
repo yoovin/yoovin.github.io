@@ -1,9 +1,11 @@
 nav {
-    background-color:#474747;
+    background-color: lavenderblush;
+    font-size: 14px;
 }
 ul.header {
+    background-color:#474747;
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     overflow: hidden;
 }
@@ -20,3 +22,65 @@ li.header a {
 li.header a:hover {
     color: grey;
 }
+div.one {
+    background-color: dimgray;
+    padding: 10px;
+}
+div.two {
+    background-color: white;
+    padding: 10px;
+}
+p.one {
+    color: whitesmoke;
+}
+ul.head {
+    background-color:lavenderblush;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+li.head {
+       float: left;
+    padding: 12px;
+}
+li.head a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+li.head a:hover {
+    color: skyblue;
+    background-color: aqua;
+}
+h1.title {
+    
+}
+table, th, td{
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+td {
+        width: 80px;
+    }
+th, td {
+        padding: 5px;
+        height: 50px
+    }
+tr.요일 {
+        background-color: bisque
+    }
+tr.짝수 {
+        background-color: lavenderblush
+    }
+tr.홀수 {
+        background-color: lavender
+    }
+td.일본어문법 {
+        background-color: aqua
+    }
+td.일본어기초 {
+        background-color: coral
+    }
