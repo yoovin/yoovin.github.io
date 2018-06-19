@@ -1,5 +1,5 @@
 nav {
-    background-color: lavenderblush;
+    background-color: #f2f2f2;
     font-size: 14px;
 }
 ul.header {
@@ -23,7 +23,7 @@ li.header a:hover {
     color: grey;
 }
 div.one {
-    background-color: dimgray;
+    background-color: #807d7d;
     padding: 10px;
 }
 div.two {
@@ -34,7 +34,7 @@ p.one {
     color: whitesmoke;
 }
 ul.head {
-    background-color:lavenderblush;
+    background-color:#f2f2f2;
     list-style-type: none;
     margin: 10px;
     padding: 0;
