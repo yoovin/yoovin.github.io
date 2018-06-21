@@ -27,13 +27,15 @@ div.one {
     padding: 10px;
     color: whitesmoke;
     border: 1px solid;
-    text-align:left
+    text-align:left;
+    width: 800px;
 }
 div.two {
     border: 1px solid;
     background-color: white;
     padding: 10px;
-    text-align: left
+    text-align: left;
+    width: 800px;
 }
 p.one {
     color: whitesmoke;
