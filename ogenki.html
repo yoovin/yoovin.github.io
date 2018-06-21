@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="jiko.css">
-<script src="jiko.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <title>방명록</title>
+    <link rel="stylesheet" href="jiko.css">
+    <script src="jiko.js"></script>
 </head>
 <nav>
     <ul class="header">
@@ -18,13 +19,13 @@
     </ul>
 </nav>
 <body>
-   <form action="">
+   <form action="" method="get">
         <fieldset>
             <legend>방명록</legend>
             이름 : <input type="text"> <br>
             비밀번호 : <input type="password"> <br><br>
-            내용 <br> <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-            비밀글 <input type="checkbox"> <input type="submit" value="입력">
+            내용 <br> <textarea name="" id="asd" cols="30" rows="10" onfocus="changebackground()"></textarea> <br>
+            비밀글 <input type="checkbox" value="himitsu"> <input type="submit" value="입력">
             <input type="reset" value="취소">
         </fieldset>
     </form>
