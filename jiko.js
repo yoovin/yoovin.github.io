@@ -2,7 +2,7 @@ function changebackground() {
     document.getElementById("asd").style.backgroundColor = "yellow";
 }
 function myMove() {
-    var elem = document.getElementById("animete");
+    var elem = document.getElementById("animate");
     var pos = 0;
     var id = setInterval (frame, 5);
     function frame() {
